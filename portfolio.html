@@ -16,7 +16,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css"
     />
 
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <!--Шапка сайту-->
@@ -61,164 +61,174 @@
       <section class="section-form">
         <div class="container">
           <ul class="button-set">
-            <li class="item"><button type="button" class="button-knobs">Все</button></li>
-            <li class="item"><button type="button" class="button-knobs">Веб-сайты</button></li>
-            <li class="item"><button type="button" class="button-knobs">Приложения</button></li>
-            <li class="item"><button type="button" class="button-knobs">Дизайн</button></li>
-            <li class="item"><button type="button" class="button-knobs">Маркетинг</button></li>
+            <li class="button-set__item">
+              <button type="button" class="button-set__button">Все</button>
+            </li>
+            <li class="button-set__item">
+              <button type="button" class="button-set__button">Веб-сайты</button>
+            </li>
+            <li class="button-set__item">
+              <button type="button" class="button-set__button">Приложения</button>
+            </li>
+            <li class="button-set__item">
+              <button type="button" class="button-set__button">Дизайн</button>
+            </li>
+            <li class="button-set__item">
+              <button type="button" class="button-set__button">Маркетинг</button>
+            </li>
           </ul>
 
           <ul class="card-set">
-            <li class="item">
-              <a href="" class="foto-hover">
+            <li class="card-set__item">
+              <a href="" class="card-set__link">
                 <div class="overley">
-                  <img src="./imgportfolio/img-1.jpg" class="foto a" alt="Технокряк" width="370" />
-                  <p class="overley-text">
+                  <img src="./imgportfolio/img-1.jpg" alt="Технокряк" width="370" />
+                  <p class="overley__text">
                     Технокряк это современная площадка распространения коронавируса. Компании
                     используют эту платформу для цифрового шпионажа и атак на защищённые сервера
                     конкурентов.
                   </p>
                 </div>
-                <div class="card-content">
-                  <h2 class="foto-title">Технокряк</h2>
-                  <p class="resource">Веб-сайт</p>
+                <div class="card-set__content">
+                  <h2 class="card-set__title">Технокряк</h2>
+                  <p class="card-set__resource">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="item">
-              <a href="" class="foto-hover">
+            <li class="card-set__item">
+              <a href="" class="card-set__link">
                 <div class="overley">
                   <img
                     src="./imgportfolio/img-2.jpg"
                     alt="Постер New Orlean vs Golden Star"
                     width="370"
                   />
-                  <p class="overley-text">
+                  <p class="overley__text">
                     Технокряк это современная площадка распространения коронавируса. Компании
                     используют эту платформу для цифрового шпионажа и атак на защищённые сервера
                     конкурентов.
                   </p>
                 </div>
-                <div class="card-content">
-                  <h2 class="foto-title">Постер New Orlean vs Golden Star</h2>
-                  <p class="resource">Дизайн</p>
+                <div class="card-set__content">
+                  <h2 class="card-set__title">Постер New Orlean vs Golden Star</h2>
+                  <p class="card-set__resource">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="item">
-              <a href="" class="foto-hover">
+            <li class="card-set__item">
+              <a href="" class="card-set__link">
                 <div class="overley">
                   <img src="./imgportfolio/img-3.jpg" alt="Ресторан Seafood" width="370" />
-                  <p class="overley-text">
+                  <p class="overley__text">
                     Технокряк это современная площадка распространения коронавируса. Компании
                     используют эту платформу для цифрового шпионажа и атак на защищённые сервера
                     конкурентов.
                   </p>
                 </div>
-                <div class="card-content">
-                  <h2 class="foto-title">Ресторан Seafood</h2>
-                  <p class="resource">Приложение</p>
+                <div class="card-set__content">
+                  <h2 class="card-set__title">Ресторан Seafood</h2>
+                  <p class="card-set__resource">Приложение</p>
                 </div>
               </a>
             </li>
-            <li class="item">
-              <a href="" class="foto-hover">
+            <li class="card-set__item">
+              <a href="" class="card-set__link">
                 <div class="overley">
                   <img src="./imgportfolio/img-4.jpg" alt="Проект Prime" width="370" />
-                  <p class="overley-text">
+                  <p class="overley__text">
                     Технокряк это современная площадка распространения коронавируса. Компании
                     используют эту платформу для цифрового шпионажа и атак на защищённые сервера
                     конкурентов.
                   </p>
                 </div>
-                <div class="card-content">
-                  <h2 class="foto-title">Проект Prime</h2>
-                  <p class="resource">Маркетинг</p>
+                <div class="card-set__content">
+                  <h2 class="card-set__title">Проект Prime</h2>
+                  <p class="card-set__resource">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="item">
-              <a href="" class="foto-hover">
+            <li class="card-set__item">
+              <a href="" class="card-set__link">
                 <div class="overley">
                   <img src="./imgportfolio/img-5.jpg" alt="Проект Boxes" width="370" />
-                  <p class="overley-text">
+                  <p class="overley__text">
                     Технокряк это современная площадка распространения коронавируса. Компании
                     используют эту платформу для цифрового шпионажа и атак на защищённые сервера
                     конкурентов.
                   </p>
                 </div>
-                <div class="card-content">
-                  <h2 class="foto-title">Проект Boxes</h2>
-                  <p class="resource">Приложение</p>
+                <div class="card-set__content">
+                  <h2 class="card-set__title">Проект Boxes</h2>
+                  <p class="card-set__resource">Приложение</p>
                 </div>
               </a>
             </li>
-            <li class="item">
-              <a href="" class="foto-hover">
+            <li class="card-set__item">
+              <a href="" class="card-set__link">
                 <div class="overley">
                   <img
                     src="./imgportfolio/img-6.jpg"
                     alt="Inspiration has no Borders"
                     width="370"
                   />
-                  <p class="overley-text">
+                  <p class="overley__text">
                     Технокряк это современная площадка распространения коронавируса. Компании
                     используют эту платформу для цифрового шпионажа и атак на защищённые сервера
                     конкурентов.
                   </p>
                 </div>
-                <div class="card-content">
-                  <h2 class="foto-title">Inspiration has no Borders</h2>
-                  <p class="resource">Веб-сайт</p>
+                <div class="card-set__content">
+                  <h2 class="card-set__title">Inspiration has no Borders</h2>
+                  <p class="card-set__resource">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="item">
-              <a href="" class="foto-hover">
+            <li class="card-set__item">
+              <a href="" class="card-set__link">
                 <div class="overley">
                   <img src="./imgportfolio/img-7.jpg" alt="Издание Limited Edition" width="370" />
-                  <p class="overley-text">
+                  <p class="overley__text">
                     Технокряк это современная площадка распространения коронавируса. Компании
                     используют эту платформу для цифрового шпионажа и атак на защищённые сервера
                     конкурентов.
                   </p>
                 </div>
-                <div class="card-content">
-                  <h2 class="foto-title">Издание Limited Edition</h2>
-                  <p class="resource">Дизайн</p>
+                <div class="card-set__content">
+                  <h2 class="card-set__title">Издание Limited Edition</h2>
+                  <p class="card-set__resource">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="item">
-              <a href="" class="foto-hover">
+            <li class="card-set__item">
+              <a href="" class="card-set__link">
                 <div class="overley">
                   <img src="./imgportfolio/img-8.jpg" alt="Проект LAB" width="370" />
-                  <p class="overley-text">
+                  <p class="overley__text">
                     Технокряк это современная площадка распространения коронавируса. Компании
                     используют эту платформу для цифрового шпионажа и атак на защищённые сервера
                     конкурентов.
                   </p>
                 </div>
 
-                <div class="card-content">
-                  <h2 class="foto-title">Проект LAB</h2>
-                  <p class="resource">Маркетинг</p>
+                <div class="card-set__content">
+                  <h2 class="card-set__title">Проект LAB</h2>
+                  <p class="card-set__resource">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="item">
-              <a href="" class="foto-hover">
+            <li class="card-set__item">
+              <a href="" class="card-set__link">
                 <div class="overley">
                   <img src="./imgportfolio/img-9.jpg" alt="Growing Business" width="370" />
-                  <p class="overley-text">
+                  <p class="overley__text">
                     Технокряк это современная площадка распространения коронавируса. Компании
                     используют эту платформу для цифрового шпионажа и атак на защищённые сервера
                     конкурентов.
                   </p>
                 </div>
-                <div class="card-content">
-                  <h2 class="foto-title">Growing Business</h2>
-                  <p class="resource">Приложение</p>
+                <div class="card-set__content">
+                  <h2 class="card-set__title">Growing Business</h2>
+                  <p class="card-set__resource">Приложение</p>
                 </div>
               </a>
             </li>
@@ -248,28 +258,28 @@
 
           <ul class="list-icon">
             <li class="list-icon__item">
-              <a href="" class="list-icon__link bgc">
+              <a href="" class="list-icon__link list-icon__link--bgc">
                 <svg width="20" height="20">
                   <use href="./images/symbol-defs.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li class="list-icon__item">
-              <a href="" class="list-icon__link bgc">
+              <a href="" class="list-icon__link list-icon__link--bgc">
                 <svg width="20" height="20">
                   <use href="./images/symbol-defs.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
             <li class="list-icon__item">
-              <a href="" class="list-icon__link bgc">
+              <a href="" class="list-icon__link list-icon__link--bgc">
                 <svg width="20" height="20">
                   <use href="./images/symbol-defs.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
             <li class="list-icon__item">
-              <a href="" class="list-icon__link bgc">
+              <a href="" class="list-icon__link list-icon__link--bgc">
                 <svg width="20" height="20">
                   <use href="./images/symbol-defs.svg#icon-linkedin"></use>
                 </svg>

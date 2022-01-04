@@ -1,0 +1,43 @@
+/* Переваги  */
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.benefits-set__icon {
+  @extend %centeredFlex;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: var(--second-fon-color);
+}
+
+.benefits-set {
+  display: flex;
+
+  .benefits-set__item {
+    width: 270px;
+  }
+}
+.benefits-set__item:not(:last-child) {
+  margin-right: 30px;
+}
+.benefits-set__item .benefits-set__text--start {
+  text-align: start;
+}
+.benefits-set__title {
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
+.benefits-set__text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--primary-text-color);
+}

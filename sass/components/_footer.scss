@@ -1,0 +1,66 @@
+/* Футер */
+.footer {
+  background-color: var(--first-fon-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.adress-citi {
+  margin-bottom: 9px;
+}
+
+.info__item:not(:last-child) {
+  margin-bottom: 9px;
+}
+.address {
+  margin-top: 20px;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.address-footer {
+  flex-grow: 1;
+}
+
+.info__link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  transition: color var(--time-transform);
+  &:hover,
+  &:focus {
+    color: #ffffff;
+  }
+}
+
+.logo__footer {
+  color: #ffffff;
+}
+
+.footer-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+/* Соцмережі в футері */
+
+.list-icon__link--bgc {
+  fill: #ffffff;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.container-wrap {
+  display: flex;
+  align-items: baseline;
+}
+.box-link-mesenger {
+  margin-left: 70px;
+}

@@ -16,7 +16,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css"
     />
 
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <!--Шапка сайту-->
@@ -152,6 +152,7 @@
       </section>
 
       <!-- Секція наша команда -->
+
       <section class="section color">
         <div class="container">
           <h2 class="section-head">Наша команда</h2>
@@ -160,7 +161,7 @@
               <img src="./images/imga.jpg" alt="Product Designer" width="270" />
               <div class="card-container">
                 <h3 class="card-container__title">Игорь Демьяненко</h3>
-                <p class="card-container__text margin">Product Designer</p>
+                <p class="card-container__text">Product Designer</p>
                 <ul class="list-icon">
                   <li class="list-icon__item">
                     <a href="" class="list-icon__link">
@@ -197,7 +198,7 @@
               <img src="./images/imgb.jpg" alt="Frontend Developer" width="270" />
               <div class="card-container">
                 <h3 class="card-container__title">Ольга Репина</h3>
-                <p class="card-container__text margin">Frontend Developer</p>
+                <p class="card-container__text">Frontend Developer</p>
                 <ul class="list-icon">
                   <li class="list-icon__item">
                     <a href="" class="list-icon__link">
@@ -234,7 +235,7 @@
               <img src="./images/imgc.jpg" alt="Marketing" width="270" />
               <div class="card-container">
                 <h3 class="card-container__title">Николай Тарасов</h3>
-                <p class="card-container__text margin">Marketing</p>
+                <p class="card-container__text">Marketing</p>
                 <ul class="list-icon">
                   <li class="list-icon__item">
                     <a href="" class="list-icon__link">
@@ -271,7 +272,7 @@
               <img src="./images/imgd.jpg" alt="UI Designer" width="270" />
               <div class="card-container">
                 <h3 class="card-container__title">Михаил Ермаков</h3>
-                <p class="card-container__text margin">UI Designer</p>
+                <p class="card-container__text">UI Designer</p>
                 <ul class="list-icon">
                   <li class="list-icon__item">
                     <a href="" class="list-icon__link">
@@ -380,28 +381,28 @@
 
           <ul class="list-icon">
             <li class="list-icon__item">
-              <a href="" class="list-icon__link bgc">
+              <a href="" class="list-icon__link list-icon__link--bgc">
                 <svg width="20" height="20">
                   <use href="./images/symbol-defs.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li class="list-icon__item">
-              <a href="" class="list-icon__link bgc">
+              <a href="" class="list-icon__link list-icon__link--bgc">
                 <svg width="20" height="20">
                   <use href="./images/symbol-defs.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
             <li class="list-icon__item">
-              <a href="" class="list-icon__link bgc">
+              <a href="" class="list-icon__link list-icon__link--bgc">
                 <svg width="20" height="20">
                   <use href="./images/symbol-defs.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
             <li class="list-icon__item">
-              <a href="" class="list-icon__link bgc">
+              <a href="" class="list-icon__link list-icon__link--bgc">
                 <svg width="20" height="20">
                   <use href="./images/symbol-defs.svg#icon-linkedin"></use>
                 </svg>
@@ -470,7 +471,7 @@
             </svg>
           </label>
 
-          <label class="form__field margin" for="comment">
+          <label class="form__field form__field--margin" for="comment">
             Коментарий
             <textarea
               name="textarea"
@@ -491,7 +492,7 @@
             </label>
           </div>
 
-          <button type="submit" class="form-button">Отправить</button>
+          <button type="submit" class="form__button">Отправить</button>
         </form>
         <button data-modal-close class="backdrop-close-btn">
           <svg class="close-black">

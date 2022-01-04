@@ -1,0 +1,87 @@
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--accent-color);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.logo__text {
+  color: #000;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-link {
+  display: flex;
+  margin-left: auto;
+
+  .contact-link__item:not(:last-child) {
+    margin-right: 50px;
+  }
+}
+
+.contact-link .contact-link__link {
+  display: flex;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  align-items: center;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+
+  transition: color var(--time-transform), fill var(--time-transform);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.contact-link__mail-icon {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: var(--primary-text-color);
+  transition: fill var(--time-transform);
+}
+
+.contact-link__tel-icon {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: var(--primary-text-color);
+  transition: fill var(--time-transform);
+}
+.contact-link__link:hover .contact-link__mail-icon,
+.contact-link__link:focus .contact-link__mail-icon {
+  fill: var(--accent-color);
+}
+
+.contact-link__link:hover .contact-link__tel-icon,
+.contact-link__link:focus .contact-link__tel-icon {
+  fill: var(--accent-color);
+}
+
+.header-box {
+  border-bottom: 1px solid #ececec;
+}

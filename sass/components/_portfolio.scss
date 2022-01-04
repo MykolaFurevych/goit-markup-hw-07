@@ -1,0 +1,119 @@
+/* Css портфоліо */
+
+.section-form {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.button-set__button {
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  background-color: var(--second-fon-color);
+  border-radius: 4px;
+  padding: 6px 22px;
+  cursor: pointer;
+
+  transition: background-color var(--time-transform), color var(--time-transform),
+    box-shadow var(--time-transform);
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    color: #ffffff;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+  }
+}
+
+.button-set {
+  @extend %centeredFlex;
+  margin-bottom: 50px;
+
+  .button-set__item:not(:last-child) {
+    margin-right: 8px;
+  }
+}
+
+.card-set__link {
+  display: block;
+  transition: box-shadow var(--time-transform);
+
+  &:hover,
+  &:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
+}
+
+/* Оверлей */
+
+.overley {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+}
+
+.overley__text {
+  position: absolute;
+  transform: translateY(100%);
+
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  padding-top: 63px;
+  padding-right: 39px;
+  padding-left: 24px;
+  padding-bottom: 83px;
+
+  width: 100%;
+  height: 100%;
+  background-color: rgba(33, 150, 243, 0.9);
+  transition: transform var(--time-transform);
+}
+.card-set__link:hover .overley__text,
+.card-set__link:focus .overley__text {
+  transform: translateY(0%);
+}
+/* Закінчення оверлей */
+
+.card-set {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: calc(-1 * var(--card-set-gap));
+  margin-top: calc(-1 * var(--card-set-gap));
+
+  .card-set__item {
+    flex-basis: calc(100% / 3 - var(--card-set-gap));
+    margin-left: var(--card-set-gap);
+    margin-top: var(--card-set-gap);
+    background: #ffffff;
+  }
+}
+.card-set__content {
+  padding: 20px 24px;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+}
+.card-set__title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: var(--title-text-color);
+}
+.card-set__resource {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  margin-top: 4px;
+  color: var(--primary-text-color);
+}
